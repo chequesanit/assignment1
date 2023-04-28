@@ -1,0 +1,414 @@
+/* #14213d
+  #000000
+  #fca311
+  #e5e5e5
+  #ffffff
+
+
+  colors2
+  #0b0c0c
+  #2a2e34
+  #e9eaec
+  #fbe134
+  #e4b61a */
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    /*scroll-padding-top: 0.rem;*/
+    list-style: none;
+    text-decoration: none;
+}
+
+.banner{
+    width: 100%;
+    height: 320vh;
+    background-color: #e5e5e5;
+    background-size: contain;
+    background-position: center; 
+    font-family: sans-serif;
+    
+}
+
+.logo .bx{
+    position: relative;
+    top: 1rem;
+    font-size: 5rem;
+    
+}
+
+.nav{
+    display: flex;
+    align-items: center;
+    /*justify-content: space-between;*/
+    margin-left: 8rem;
+}
+
+
+.navbar{
+    display: flex;
+    align-items: center;
+    font-family: sans-serif;
+}
+
+.navbar a{
+    padding: 33px 25px;
+    color: #000000;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.navbar a:hover{
+    color: #1018e8;
+
+}
+
+span{
+    font-size: 18px;
+    position: relative;
+    right: 8.100rem;
+    top: 2rem;
+    padding: 33px 25px;
+    color: gray;
+}
+
+h6{
+    font-size: 2rem;
+}
+
+.btn{
+     padding: 5px 22px;
+    border-radius: 0rem;
+    background-color: white;
+    color: black;
+    gap: 2rem;
+    position: relative;
+    left: 10rem;
+}
+
+a .btn{
+    position: relative;
+    left: 123rem;
+    float: right;
+    right: 23rem;
+}
+
+.text{
+    position: relative;
+    top: rem;
+    padding: 9rem;
+    font-family: sans-serif serif;
+}
+
+.text h2{
+    font-size: 3.2rem;
+    font-weight: 500;
+    position: relative;
+    left: rem;
+    top: rem;
+}
+
+.text p{
+    position: relative;
+    left: rem;
+    top:.10rem ;
+    height: 7rem;
+    font-size: 1.2rem;
+}
+
+.photo{
+    float: right;
+    position: absolute;
+    right: 15em;
+    top: 9rem;
+}
+
+img{
+    width: 30rem;
+    height: 30rem;
+}
+
+.tar{
+    position: relative;
+    right: 32rem;
+    top: rem;
+}
+
+.tar button{
+    position: relative;
+    left: 32rem;
+    color: black;
+    width: 6.5rem;
+    height: 2rem;
+    font-size: 1rem;
+    font-weight: 500;
+    background-color: #ffff;
+    border: #fff;
+}
+
+hr{
+    width: 26rem;
+    position: relative;
+    bottom: 12rem;
+}
+
+.phone{
+    position: absolute;
+    top: 37rem;
+}
+
+
+.phone p{
+    font-size: 0.9rem;
+}
+
+#big{
+    background-color: rgb(35, 142, 243);
+    color: #ffff;
+    border: 1px solid rgb(35, 142, 243);
+}
+
+#sales{
+    position: relative;
+    bottom: 24rem;
+    padding: 9rem;
+    font-family: sans-serif serif;
+    display: grid;
+    gap: 4rem;
+}
+
+.box h5{
+    color: gray;
+    position: relative;
+    left: 3rem;
+    top: -0rem;
+    font-size: 10px;
+}
+
+
+
+#sales .box .bx{
+    position: relative;
+    top: 2rem;
+    padding: 9px;
+    border-radius: 50%;
+    background: white;
+    font-size: 20px;
+}
+
+#sales .box p{
+    font-size: 1.1rem;
+    position: absolute;
+    left: 12rem;
+    top: rem;
+}
+
+.cat{
+    position: absolute;
+    left: 50rem;
+    top: 11rem;
+    color: grey;
+}
+
+.rat{
+    position: absolute;
+    left: 60rem;
+    top: 11rem;
+    color: grey;
+}
+
+.bat{
+    width: 62rem;
+    position:relative;
+    left: rem;
+    top: 6rem;
+    
+}
+
+.me{
+    position: absolute;
+    left: 36rem;
+    top: 11rem;
+}
+
+.ant{
+    font-size: 5rem;
+    display: flex;
+    gap: 7rem;
+    position: absolute;
+    left: 12rem;
+    top: 65rem;
+    
+}
+
+.go{
+   position:absolute;
+   left: 12rem;
+   top: 80rem;
+   
+}
+
+.gate{
+    position:absolute;
+   left: 12rem;
+   top: 80rem;
+}
+
+.gate .bx
+
+
+.box1{
+    background-color: green;
+
+}
+
+
+
+.hero{
+    position: relative;
+    left: 12rem;
+    bottom: 16rem;
+    background-color: white;
+    width: 16rem;
+    height:15rem;
+    border-radius: 1rem;
+}
+
+.he{
+    position: relative;
+    left: 53rem;
+    bottom: 46rem;
+    background-color: white;
+    width: 16rem;
+    height:15rem;
+    border-radius: 1rem;
+}
+
+.you{
+    position: relative;
+    left: 33rem;
+    bottom: 31rem;
+    background-color: white;
+    width: 16rem;
+    height:15rem;
+    border-radius: 1rem;
+}
+
+.hero img{
+        width:7rem;
+        height: 5rem;
+        background-color: #fff;
+        border-radius: 15rem ;
+}
+
+.you img{
+    width:8rem;
+        height: 5rem;
+        border-radius: 15rem ;
+}
+
+.he img{
+    width:10rem;
+    height: 7rem;
+    border-radius: 15rem ;
+     border: solid white;
+    
+}
+
+.he h4{
+    position: relative;
+    left: 10rem;
+    bottom: 6rem;
+    color: rgba(138,131,131,0.92);
+}
+
+.you h4{
+    position: relative;
+    left: 10rem;
+    bottom: 4rem;
+    color: rgba(138,131,131,0.92);
+}
+
+.hero h4{
+    position: relative;
+    left: 10rem;
+    bottom: 4rem;
+    color: rgba(138,131,131,0.92);
+}
+
+
+
+
+.he h3{
+    position:relative;
+    left:4rem;
+    bottom: 2.23rem;
+    color: black;
+    font-size: 2.3rem;
+}
+
+.hero h3{
+    position:relative;
+    left:3rem;
+    bottom: 1.23rem;
+    color: black;
+    font-size: 2.3rem;
+}
+
+.you h3{
+    position:relative;
+    left:4rem;
+    bottom: 1.23rem;
+    color: black;
+    font-size: 2.3rem;
+}
+
+.hero p{
+    font-size: 13px;
+    position:relative;
+    left:2rem;
+    bottom: 0.23rem;
+}
+
+.you p{
+    font-size: 13px;
+    position:relative;
+    left:2rem;
+    bottom: 0.23rem;
+}
+
+.he p{
+    font-size: 13px;
+    position:relative;
+    left:2rem;
+    bottom: 2.23rem;
+}
+
+
+#man{
+    display:flex;
+    align-items: center;
+    color: gray;
+    gap: 18rem;
+    position: absolute;
+    left: 12rem;
+    top: 110rem;
+    font-family: 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#man p{
+    color: #000000;
+}
+
+.white h1{
+    font-size: 2.5rem;
+}
+
+.boy h1{
+    font-size: 2.5rem;
+}
+
+.girl h1{
+    font-size:  2.5rem;
+}
